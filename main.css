@@ -1,0 +1,41 @@
+.body {
+    background-color: cornflowerblue;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-basis: 95%;
+}
+
+.img-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.congress-img {}
+
+.basic-info {
+    font-size: 3em;
+}
+
+.committees {
+    display: flex;
+    list-style-type: none;
+    justify-content:space-between;
+    flex-direction: row;
+}
+
+.legislation-links {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+}
