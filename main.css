@@ -24,6 +24,7 @@
 
 .basic-info {
     font-size: 2em;
+    padding: 5px;
     background-color:darkgoldenrod;
 }
 
@@ -38,6 +39,11 @@
     flex-direction: row;
 }
 
+.committees-list {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .legislation-links {
     display: flex;
     justify-content: center;
@@ -47,5 +53,11 @@
 .footer {
     display: flex;
     flex-direction: row;
-    margin: 5px 50px;
+    justify-content: center;
+}
+
+.footer-p {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
